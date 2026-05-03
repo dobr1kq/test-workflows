@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {}
+    "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\final_project\\src\\ECommerce.Application\\ECommerce.Application.csproj": {
+    "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\ECommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\final_project\\src\\ECommerce.Application\\ECommerce.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\ECommerce.Application.csproj",
         "projectName": "ECommerce.Application",
-        "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Application\\ECommerce.Application.csproj",
-        "packagesPath": "C:\\Users\\dobrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\final_project\\src\\ECommerce.Application\\obj\\",
+        "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\ECommerce.Application.csproj",
+        "packagesPath": "C:\\Users\\Stanislav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dobrik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Stanislav\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Projects\\final_project\\src\\ECommerce.Domain\\ECommerce.Domain.csproj": {
-                "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Domain\\ECommerce.Domain.csproj"
+              "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Domain\\ECommerce.Domain.csproj"
               }
             }
           }
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -341,17 +341,17 @@
         }
       }
     },
-    "D:\\Projects\\final_project\\src\\ECommerce.Domain\\ECommerce.Domain.csproj": {
+    "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Domain\\ECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\final_project\\src\\ECommerce.Domain\\ECommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Domain\\ECommerce.Domain.csproj",
         "projectName": "ECommerce.Domain",
-        "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Domain\\ECommerce.Domain.csproj",
-        "packagesPath": "C:\\Users\\dobrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\final_project\\src\\ECommerce.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Domain\\ECommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\Stanislav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dobrik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Stanislav\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -396,7 +396,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -674,17 +674,17 @@
         }
       }
     },
-    "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
+    "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
         "projectName": "ECommerce.Infrastructure",
-        "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\dobrik\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Stanislav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dobrik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Stanislav\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -696,8 +696,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Projects\\final_project\\src\\ECommerce.Application\\ECommerce.Application.csproj": {
-                "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Application\\ECommerce.Application.csproj"
+              "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\ECommerce.Application.csproj"
               }
             }
           }
@@ -751,7 +751,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

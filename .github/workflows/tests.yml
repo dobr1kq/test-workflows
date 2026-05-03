@@ -21,10 +21,10 @@ jobs:
         dotnet-version: '10.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore final_project-main.sln
 
     - name: Build solution
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build final_project-main.sln --configuration Release --no-restore
 
     - name: Run tests
       run: dotnet test tests/ECommerce.UnitTests/ECommerce.UnitTests.csproj --no-restore --logger "console;verbosity=minimal" --verbosity normal

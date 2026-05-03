@@ -5118,19 +5118,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dobrik\\.nuget\\packages\\": {}
+    "C:\\Users\\Stanislav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\final_project\\tests\\ECommerce.UnitTests\\ECommerce.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\tests\\ECommerce.UnitTests\\ECommerce.UnitTests.csproj",
       "projectName": "ECommerce.UnitTests",
-      "projectPath": "D:\\Projects\\final_project\\tests\\ECommerce.UnitTests\\ECommerce.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\dobrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\final_project\\tests\\ECommerce.UnitTests\\obj\\",
+      "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\tests\\ECommerce.UnitTests\\ECommerce.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\Stanislav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\tests\\ECommerce.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dobrik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Stanislav\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -5142,14 +5142,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Projects\\final_project\\src\\ECommerce.Api\\ECommerce.Api.csproj": {
-              "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Api\\ECommerce.Api.csproj"
+            "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Api\\ECommerce.Api.csproj": {
+              "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Api\\ECommerce.Api.csproj"
             },
-            "D:\\Projects\\final_project\\src\\ECommerce.Application\\ECommerce.Application.csproj": {
-              "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Application\\ECommerce.Application.csproj"
+            "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\ECommerce.Application.csproj": {
+              "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Application\\ECommerce.Application.csproj"
             },
-            "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj"
+            "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj"
             }
           }
         }
@@ -5223,7 +5223,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

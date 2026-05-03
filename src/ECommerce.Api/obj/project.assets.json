@@ -2121,19 +2121,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dobrik\\.nuget\\packages\\": {}
+    "C:\\Users\\Stanislav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\final_project\\src\\ECommerce.Api\\ECommerce.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Api\\ECommerce.Api.csproj",
       "projectName": "ECommerce.Api",
-      "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Api\\ECommerce.Api.csproj",
-      "packagesPath": "C:\\Users\\dobrik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\final_project\\src\\ECommerce.Api\\obj\\",
+      "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Api\\ECommerce.Api.csproj",
+      "packagesPath": "C:\\Users\\Stanislav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dobrik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Stanislav\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2145,8 +2145,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj"
+            "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Stanislav\\Desktop\\final_project-main\\src\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj"
             }
           }
         }
@@ -2195,7 +2195,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

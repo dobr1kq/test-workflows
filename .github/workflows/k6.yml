@@ -49,8 +49,8 @@ jobs:
 
       - name: Restore and Build
         run: |
-          dotnet restore
-          dotnet build --no-restore
+          dotnet restore final_project-main.sln
+          dotnet build final_project-main.sln --no-restore
 
       - name: Start API
         run: |
