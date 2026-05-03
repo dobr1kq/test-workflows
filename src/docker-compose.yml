@@ -1,0 +1,28 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: ecommerce_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mx050282
+      POSTGRES_DB: ecommerce_db
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=ecommerce_db;Username=postgres;Password=mx050282

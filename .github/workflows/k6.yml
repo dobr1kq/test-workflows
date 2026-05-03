@@ -1,0 +1,95 @@
+name: k6 Performance Tests
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/ECommerce.Api/**'
+      - 'tests/ECommerce.UnitTests/Performance/**'
+  workflow_dispatch:
+    inputs:
+      test-type:
+        description: 'Тип тесту k6'
+        required: true
+        default: load
+        type: choice
+        options: [load, stress]
+
+jobs:
+  k6:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: mx050282
+          POSTGRES_DB: ecommerce_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U postgres"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Setup k6
+        uses: grafana/setup-k6-action@v1
+
+      - name: Restore and Build
+        run: |
+          dotnet restore
+          dotnet build --no-restore
+
+      - name: Start API
+        run: |
+          dotnet run --project src/ECommerce.Api --no-build &
+        env:
+          ConnectionStrings__DefaultConnection: "Host=localhost;Port=5432;Database=ecommerce_db;Username=postgres;Password=mx050282"
+          ASPNETCORE_URLS: "http://localhost:5000"
+          ASPNETCORE_ENVIRONMENT: Development
+
+      - name: Wait for API
+        run: |
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:5000/api/cart/health; then
+              echo "API is ready"
+              break
+            fi
+            echo "Waiting for API... ($i)"
+            sleep 2
+          done
+
+      - name: Determine test type
+        id: test-type
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "type=load" >> $GITHUB_OUTPUT
+          else
+            echo "type=${{ github.event.inputs.test-type }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run k6 Performance Test
+        run: |
+          k6 run \
+            -e BASE_URL=http://localhost:5000 \
+            tests/ECommerce.UnitTests/Performance/load-test.js \
+            --summary-export=k6-results.json
+
+      - name: Upload k6 results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: k6-results
+          path: k6-results.json

@@ -1,0 +1,6 @@
+{
+  "ECommerce.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\final_project\\src\\ECommerce.Api",
+  "ECommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\final_project\\src\\ECommerce.Application",
+  "ECommerce.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\final_project\\src\\ECommerce.Domain",
+  "ECommerce.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\final_project\\src\\ECommerce.Infrastructure"
+}
